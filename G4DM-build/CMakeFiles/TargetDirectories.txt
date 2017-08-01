@@ -1,0 +1,7 @@
+/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/edit_cache.dir
+/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/rebuild_cache.dir
+/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/list_install_components.dir
+/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/install.dir
+/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/install/local.dir
+/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/install/strip.dir
+/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/G4DM.dir
