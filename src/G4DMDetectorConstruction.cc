@@ -20,7 +20,7 @@ G4VPhysicalVolume* DMDetectorConstruction::Construct()
    G4NistManager* nist = G4NistManager::Instance();
 
    G4double env_sizeXY = 100*cm, env_sizeZ = 100*cm;
-   G4Material* env_mat = nist->FindOrBuildMaterial("G4_Fe");
+   G4Material* env_mat = nist->FindOrBuildMaterial("G4_W");
 
    G4bool checkOverlaps = true;
 

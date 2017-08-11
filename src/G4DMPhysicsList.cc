@@ -11,6 +11,10 @@
 #include "G4Region.hh"
 #include "G4RegionStore.hh"
 #include "G4ProductionCuts.hh"
+#include "G4MuonPlus.hh"
+#include "G4MuonMinus.hh"
+#include "G4muDarkBremsstrahlung.hh"
+
 
 DMPhysicsList::DMPhysicsList() : G4VModularPhysicsList(),
    fEmPhysicsList(0)
@@ -60,6 +64,10 @@ void DMPhysicsList::ConstructProcess()
    G4PhysicsListHelper* ph = G4PhysicsListHelper::GetPhysicsListHelper();
    G4ParticleDefinition* particle = G4Electron::ElectronDefinition();
    ph->RegisterProcess(new G4eDarkBremsstrahlung(), particle);
+   G4ParticleDefinition* muon = G4MuonMinus::MuonMinusDefinition();
+   ph->RegisterProcess(new G4muDarkBremsstrahlung(), muon);
+   G4ParticleDefinition* muplus = G4MuonPlus::MuonPlusDefinition();
+   ph->RegisterProcess(new G4muDarkBremsstrahlung(), muplus);
 //   ph->RegisterProcess(new G4eBremsstrahlung(), particle);
 }
 

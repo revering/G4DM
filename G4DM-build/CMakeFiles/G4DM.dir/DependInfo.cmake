@@ -15,6 +15,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/local/cms/user/revering/geant/G4DM/src/G4DarkPhoton.cc" "/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/G4DM.dir/src/G4DarkPhoton.cc.o"
   "/local/cms/user/revering/geant/G4DM/src/G4eDarkBremsstrahlung.cc" "/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/G4DM.dir/src/G4eDarkBremsstrahlung.cc.o"
   "/local/cms/user/revering/geant/G4DM/src/G4eDarkBremsstrahlungModel.cc" "/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/G4DM.dir/src/G4eDarkBremsstrahlungModel.cc.o"
+  "/local/cms/user/revering/geant/G4DM/src/G4muDarkBremsstrahlung.cc" "/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o"
+  "/local/cms/user/revering/geant/G4DM/src/G4muDarkBremsstrahlungModel.cc" "/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

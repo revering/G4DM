@@ -464,6 +464,60 @@ src/G4eDarkBremsstrahlungModel.cc.s:
 	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4eDarkBremsstrahlungModel.cc.s
 .PHONY : src/G4eDarkBremsstrahlungModel.cc.s
 
+src/G4muDarkBremsstrahlung.o: src/G4muDarkBremsstrahlung.cc.o
+
+.PHONY : src/G4muDarkBremsstrahlung.o
+
+# target to build an object file
+src/G4muDarkBremsstrahlung.cc.o:
+	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o
+.PHONY : src/G4muDarkBremsstrahlung.cc.o
+
+src/G4muDarkBremsstrahlung.i: src/G4muDarkBremsstrahlung.cc.i
+
+.PHONY : src/G4muDarkBremsstrahlung.i
+
+# target to preprocess a source file
+src/G4muDarkBremsstrahlung.cc.i:
+	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.i
+.PHONY : src/G4muDarkBremsstrahlung.cc.i
+
+src/G4muDarkBremsstrahlung.s: src/G4muDarkBremsstrahlung.cc.s
+
+.PHONY : src/G4muDarkBremsstrahlung.s
+
+# target to generate assembly for a file
+src/G4muDarkBremsstrahlung.cc.s:
+	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.s
+.PHONY : src/G4muDarkBremsstrahlung.cc.s
+
+src/G4muDarkBremsstrahlungModel.o: src/G4muDarkBremsstrahlungModel.cc.o
+
+.PHONY : src/G4muDarkBremsstrahlungModel.o
+
+# target to build an object file
+src/G4muDarkBremsstrahlungModel.cc.o:
+	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o
+.PHONY : src/G4muDarkBremsstrahlungModel.cc.o
+
+src/G4muDarkBremsstrahlungModel.i: src/G4muDarkBremsstrahlungModel.cc.i
+
+.PHONY : src/G4muDarkBremsstrahlungModel.i
+
+# target to preprocess a source file
+src/G4muDarkBremsstrahlungModel.cc.i:
+	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.i
+.PHONY : src/G4muDarkBremsstrahlungModel.cc.i
+
+src/G4muDarkBremsstrahlungModel.s: src/G4muDarkBremsstrahlungModel.cc.s
+
+.PHONY : src/G4muDarkBremsstrahlungModel.s
+
+# target to generate assembly for a file
+src/G4muDarkBremsstrahlungModel.cc.s:
+	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.s
+.PHONY : src/G4muDarkBremsstrahlungModel.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -510,6 +564,12 @@ help:
 	@echo "... src/G4eDarkBremsstrahlungModel.o"
 	@echo "... src/G4eDarkBremsstrahlungModel.i"
 	@echo "... src/G4eDarkBremsstrahlungModel.s"
+	@echo "... src/G4muDarkBremsstrahlung.o"
+	@echo "... src/G4muDarkBremsstrahlung.i"
+	@echo "... src/G4muDarkBremsstrahlung.s"
+	@echo "... src/G4muDarkBremsstrahlungModel.o"
+	@echo "... src/G4muDarkBremsstrahlungModel.i"
+	@echo "... src/G4muDarkBremsstrahlungModel.s"
 .PHONY : help
 
 

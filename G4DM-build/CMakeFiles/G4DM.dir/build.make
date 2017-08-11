@@ -249,9 +249,33 @@ CMakeFiles/G4DM.dir/src/G4DMDetectorConstruction.cc.o.provides: CMakeFiles/G4DM.
 CMakeFiles/G4DM.dir/src/G4DMDetectorConstruction.cc.o.provides.build: CMakeFiles/G4DM.dir/src/G4DMDetectorConstruction.cc.o
 
 
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o: CMakeFiles/G4DM.dir/flags.make
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o: ../src/G4muDarkBremsstrahlung.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o"
+	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o -c /local/cms/user/revering/geant/G4DM/src/G4muDarkBremsstrahlung.cc
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.i"
+	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /local/cms/user/revering/geant/G4DM/src/G4muDarkBremsstrahlung.cc > CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.i
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.s"
+	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /local/cms/user/revering/geant/G4DM/src/G4muDarkBremsstrahlung.cc -o CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.s
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o.requires:
+
+.PHONY : CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o.requires
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o.provides: CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o.requires
+	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o.provides.build
+.PHONY : CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o.provides
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o.provides.build: CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o
+
+
 CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o: CMakeFiles/G4DM.dir/flags.make
 CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o: ../src/G4DMActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o"
 	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o -c /local/cms/user/revering/geant/G4DM/src/G4DMActionInitialization.cc
 
 CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o: CMakeFiles/G4DM.dir/flags.make
 CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o: ../src/G4DMPhysicsList.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o"
 	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o -c /local/cms/user/revering/geant/G4DM/src/G4DMPhysicsList.cc
 
 CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.i: cmake_force
@@ -297,9 +321,33 @@ CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o.provides: CMakeFiles/G4DM.dir/src/G
 CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o.provides.build: CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o
 
 
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o: CMakeFiles/G4DM.dir/flags.make
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o: ../src/G4muDarkBremsstrahlungModel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o"
+	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o -c /local/cms/user/revering/geant/G4DM/src/G4muDarkBremsstrahlungModel.cc
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.i"
+	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /local/cms/user/revering/geant/G4DM/src/G4muDarkBremsstrahlungModel.cc > CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.i
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.s"
+	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /local/cms/user/revering/geant/G4DM/src/G4muDarkBremsstrahlungModel.cc -o CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.s
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o.requires:
+
+.PHONY : CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o.requires
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o.provides: CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o.requires
+	$(MAKE) -f CMakeFiles/G4DM.dir/build.make CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o.provides.build
+.PHONY : CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o.provides
+
+CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o.provides.build: CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o
+
+
 CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.o: CMakeFiles/G4DM.dir/flags.make
 CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.o: ../src/G4DMEventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.o"
 	/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.o -c /local/cms/user/revering/geant/G4DM/src/G4DMEventAction.cc
 
 CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.i: cmake_force
@@ -331,8 +379,10 @@ G4DM_OBJECTS = \
 "CMakeFiles/G4DM.dir/src/G4DMPrimaryGeneratorAction.cc.o" \
 "CMakeFiles/G4DM.dir/src/G4eDarkBremsstrahlung.cc.o" \
 "CMakeFiles/G4DM.dir/src/G4DMDetectorConstruction.cc.o" \
+"CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o" \
 "CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o" \
 "CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o" \
+"CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o" \
 "CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.o"
 
 # External object files for target G4DM
@@ -346,8 +396,10 @@ G4DM: CMakeFiles/G4DM.dir/src/G4DMRunAction.cc.o
 G4DM: CMakeFiles/G4DM.dir/src/G4DMPrimaryGeneratorAction.cc.o
 G4DM: CMakeFiles/G4DM.dir/src/G4eDarkBremsstrahlung.cc.o
 G4DM: CMakeFiles/G4DM.dir/src/G4DMDetectorConstruction.cc.o
+G4DM: CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o
 G4DM: CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o
 G4DM: CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o
+G4DM: CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o
 G4DM: CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.o
 G4DM: CMakeFiles/G4DM.dir/build.make
 G4DM: /local/cms/other/geant4/geant4.10.02.p02/lib64/libG4Tree.so
@@ -393,7 +445,7 @@ G4DM: /local/cms/other/geant4/geant4.10.02.p02/lib64/libG4intercoms.so
 G4DM: /local/cms/other/geant4/geant4.10.02.p02/lib64/libG4global.so
 G4DM: /local/cms/other/geant4/geant4.10.02.p02/lib64/libG4clhep.so
 G4DM: CMakeFiles/G4DM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable G4DM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/local/cms/user/revering/geant/G4DM/G4DM-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable G4DM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/G4DM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -409,8 +461,10 @@ CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4DMRunAction.cc.o.require
 CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4DMPrimaryGeneratorAction.cc.o.requires
 CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4eDarkBremsstrahlung.cc.o.requires
 CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4DMDetectorConstruction.cc.o.requires
+CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlung.cc.o.requires
 CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4DMActionInitialization.cc.o.requires
 CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4DMPhysicsList.cc.o.requires
+CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4muDarkBremsstrahlungModel.cc.o.requires
 CMakeFiles/G4DM.dir/requires: CMakeFiles/G4DM.dir/src/G4DMEventAction.cc.o.requires
 
 .PHONY : CMakeFiles/G4DM.dir/requires

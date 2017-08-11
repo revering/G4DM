@@ -63,5 +63,5 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "c")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/lib/gcc/x86_64-redhat-linux-gnu/4.9.3;/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/lib/gcc;/local/modules/el6/software/GCC/4.9.2/lib64;/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/lib64;/lib64;/usr/lib64;/local/modules/el6/software/GCC/4.9.2/lib;/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/x86_64-redhat-linux-gnu/lib;/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/lib/gcc/x86_64-redhat-linux-gnu/4.9.3;/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/lib/gcc;/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/lib64;/lib64;/usr/lib64;/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/x86_64-redhat-linux-gnu/lib;/cvmfs/cms.cern.ch/slc6_amd64_gcc493/external/gcc/4.9.3/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
