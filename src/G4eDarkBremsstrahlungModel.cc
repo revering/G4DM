@@ -321,7 +321,7 @@ void G4eDarkBremsstrahlungModel::SampleSecondaries(std::vector<G4DynamicParticle
       double intTzero = 1./ThetaConst*log(1./ThetaConst/20.);
       double B = G4UniformRand()*(intTzero-intTheta)+intTheta;
       double ThetaEv = -1./ThetaConst/20. + exp(ThetaConst*B);
-      double smax = 16./(MA*MA*(1.-XEv))/(ThetaConst*ThetaEv+0.05)/E0/E0;
+      double smax = 16./(MA*MA*(1.-XEv))/(ThetaConst*ThetaEv+MA/E0)/E0/E0;
       double UU = G4UniformRand() * smax;
 
       double Uxtheta = E0*E0*ThetaEv*ThetaEv*XEv + MA*MA*(1.0-XEv)/XEv + Mel*Mel*XEv;
